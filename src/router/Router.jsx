@@ -1,17 +1,22 @@
 import { createBrowserRouter } from "react-router-dom";
-import Layout from "../layout/Layout";
+import App from "../App";
+
 
 const PildonitasRouter = createBrowserRouter([{
     path:"/",
-    element:<Layout />,
+    element:<App />,
     children:[
         {
             index:true,
-            
+            element:<Home />
         },
         {
-            path
-            
+            path: "/medicationslist",
+            element: <MedicationList />
+        },
+        {
+            path:"/viewmedication",
+            element: <MedicationDetail />
         }
     ]
 }])
