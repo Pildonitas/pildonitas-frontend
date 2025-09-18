@@ -58,7 +58,7 @@
 
 <hr />
 
-<h2>Estructura del proyecto</h2>
+<h2>📂 Estructura del proyecto</h2>
 <div align="center">
   <img width="495" height="548" alt="Captura de pantalla 2025-09-18 142307" src="https://github.com/user-attachments/assets/63fa8928-ade6-4cf7-a626-fc09bdb12d23" />
 </div>
