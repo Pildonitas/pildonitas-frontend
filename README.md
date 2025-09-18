@@ -1,12 +1,12 @@
-# Pildonitas
+# Pildonitas 💊
 
-<h2>Proyecto: Recordatorio de medicación</h2>
+<h2>Proyecto Hackaton F5 2025: Recordatorio de medicación</h2>
 
 <div align="center">
   <img width="375" height="331" alt="logo_pildonitas" src="https://github.com/user-attachments/assets/42ce0bcf-4ca9-4ea3-8626-7615f93283a0" />
 </div>
 
-<h2>Introducción</h2>
+<h2>📝 Introducción</h2>
 
 <p>Pildonitas es una página web que está diseñada para ayudar a las personas a gestionar de manera sencilla y segura su medicación diaria.</p>
 <p>Con ella, cada usuario puede:</p>
@@ -18,7 +18,7 @@
 <p>El objetivo es ofrecer una herramienta digital fácil de usar, accesible y confiable, que mejore la adherencia a los tratamientos médicos y brinde tranquilidad tanto a pacientes como a sus cuidadores.</p>
 <hr />
 
-<h2>Equipo de trabajo</h2>
+<h2>🧑‍💻 Equipo de trabajo</h2>
 <h3>Equipo FrontEnd</h3>
 <ul>
   <li>Larysa Ambartsumian - <a href="https://www.linkedin.com/in/larysa-ambartsumian/">LinkedIn</a></li>
@@ -35,11 +35,12 @@
 
 <hr />
 
-<h2>Tecnologías usadas: </h2>
+<h2>🖥️ Tecnologías usadas: </h2>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
+  <li>TailwindCSS</li>
   <li>React JS</li>
   <li>Node JS</li>
   <li>localStorage (como respaldo de datos)</li>
@@ -47,14 +48,14 @@
 
 <hr />
 
-<h2>Herramientas: </h2>
+<h2>🛠️ Herramientas utilizadas: </h2>
 <ul>
   <li>Visual Studio Code</li>
   <li>Git y GitHub</li>
   <li>Figma (WireFrame y prototipo visual)</li>
 </ul>
 
-<h2>Inicio rápido</h2>
+<h2>🚀 Inicio rápido</h2>
 <h3>Prerequisitos: </h3>
 <p>Abrir el símbolo de sistema en el ordenador (cmd) y comprobar las siguientes versiones:</p>
 <ul>
