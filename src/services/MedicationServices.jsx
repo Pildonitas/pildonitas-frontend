@@ -8,8 +8,9 @@ export const getMedication = async()=>{
         const res = await axios.get(URL_API);
         return res.data;
     }catch(error){
-        console.log(`Error al obtener el listado de medicación:`, error.message);
-        throw error;
+        const errorMessage = `Error al obtener el listado de medicación: ${error.response?.data?.message || error.message}`;
+    console.error(errorMessage);
+    throw new Error(errorMessage);
     }
 }
 
@@ -19,8 +20,9 @@ export const getMedicationById = async(id)=>{
         const res = await axios.get(`${URL_API}/${id}`);
         return res.data;
     }catch(error){
-        console.log(`Error al obtener el medicamento con id ${id}:`, error.message);
-        throw error;
+        const errorMessage = `Error al obtener el medicamento con id ${id}: ${error.response?.data?.message || error.message}`;
+    console.error(errorMessage);
+    throw new Error(errorMessage);
     }
 }
 
@@ -30,8 +32,9 @@ export const createMedication = async(newMedication)=>{
         const res = await axios.post(URL_API, newMedication);
         return res.data;
     }catch(error){
-        console.log(`Error al crear el medicamento:`, error.message);
-        throw error;
+        const errorMessage = `Error al crear el medicamento: ${error.response?.data?.message || error.message}`;
+        console.error(errorMessage);
+        throw new Error(errorMessage);
     }
 }
 
@@ -41,8 +44,9 @@ export const updateMedication = async(id, updatedMedication)=>{
         const res = await axios.put(`${URL_API}/${id}`, updatedMedication);
         return res.data;
     }catch(error){
-        console.log(`Error al actualizar el medicamento con id ${id}:`, error.message);
-        throw error;
+        const errorMessage = `Error al actualizar el medicamento con id ${id}: ${error.response?.data?.message || error.message}`;
+    console.error(errorMessage);
+    throw new Error(errorMessage);
     }
 }
 
@@ -53,7 +57,8 @@ export const deleteMedication = async(id)=>{
         return res.data;
     }
     catch(error){
-        console.log(`Error al eliminar el medicamento con id ${id}:`, error.message);
-        throw error;
+        const errorMessage = `Error al eliminar el medicamento con id ${id}: ${error.response?.data?.message || error.message}`;
+        console.error(errorMessage);
+        throw new Error(errorMessage);
     }
 }

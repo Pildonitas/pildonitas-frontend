@@ -1,40 +1,42 @@
-import React, { useEffect, useState } from 'react'
-import MedicationCard from '../components/MedicationCard'
-import { getMedication } from '../services/MedicationServices';
-
+import React, { useEffect, useState } from "react"
+import MedicationCard from "../components/MedicationCard"
+// 🔹 cuando tengas backend real, cambia este import:
+import { getMedication } from "../services/TestServices"
+import { ClipboardList } from "lucide-react"
 
 const MedicationList = () => {
-    const [medications, setMedications] = useState([]);
-    const [showForm, setShowForm] = useState(false);
+    const [medications, setMedications] = useState([])
+    const [loading, setLoading] = useState(true)
 
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
-
-    //Cargar los medicamentos desde la API 
+    // Cargar los medicamentos desde la API (solo IDs + info mínima)
     useEffect(() => {
         const fetchData = async () => {
+            setLoading(true)
             try {
-                const data = await getMedication();
-                setMedications(data);
+                const data = await getMedication()
+                setMedications(data) // aquí debería venir al menos {id}
             } catch (error) {
-                console.error("Error cargando los medicamentos:", error);
+                console.error("Error cargando los medicamentos:", error)
+            } finally {
+                setLoading(false)
             }
-        };
-        fetchData();
-    }, []);
+        }
+        fetchData()
+    }, [])
+
+    if (loading) {
+        return <p>Cargando lista de medicamentos...</p>
+    }
 
     return (
         <div style={{ padding: "20px" }}>
-            <h1>📋 Medicamentos del Usuario</h1>
-            <button onClick={() => setShowForm(true)}>Agregar Medicamento</button>
+            {/* Título con ícono */}
+            <div className="flex items-center space-x-2">
+                <ClipboardList className="w-6 h-6 text-sky-500" />
+                <h1 className="text-xl font-bold text-gray-800">Mis Medicamentos</h1>
+            </div>
 
-            {showForm && (
-                <Form
-                    onSubmit={handleAgregarMedicamento}
-                    onCancel={() => setShowForm(false)}
-                />
-            )}
-
+            {/* Grid de Cards */}
             <div
                 style={{
                     marginTop: "30px",
@@ -46,15 +48,16 @@ const MedicationList = () => {
                 {medications.map((med) => (
                     <MedicationCard
                         key={med.id}
-                        {...med}
-                        onMarcarComoTomado={() => marcarComoTomado(med.id)}
-                        onEliminar={() => eliminarMedicamento(med.id)}
-                        onEditar={() => editarMedicamento(med.id)}
+                        id={med.id} // 🔹 la Card se encarga de traer su info con getMedicationById
+                        onUpdate={() => {
+                            // callback opcional si quieres refrescar lista al cambiar estado
+                            console.log("Lista actualizada")
+                        }}
                     />
                 ))}
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default MedicationList;
+export default MedicationList

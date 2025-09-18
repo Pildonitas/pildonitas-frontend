@@ -3,6 +3,7 @@ import App from "../App";
 import Home from "../pages/Home";
 import MedicationList from "../pages/MedicationList";
 import MedicationDetail from "../pages/MedicationDetail";
+import MedForm from "../components/Form";
 
 
 const PildonitasRouter = createBrowserRouter([{
@@ -10,15 +11,24 @@ const PildonitasRouter = createBrowserRouter([{
     element:<App />,
     children:[
         {
-            index:false,
+            index:true,
+            element: <Home />
         },
         {
             path: "/medicationslist",
             element: <MedicationList />
         },
         {
-            path:"/viewmedication",
+            path:"/viewmedication/:id",
             element: <MedicationDetail />
+        },
+        {
+            path:"/add-medication",
+            element: <MedForm />
+        },
+        {
+            path:"/edit-medication/:id",
+            element: <MedForm />
         }
     ]
 }])
