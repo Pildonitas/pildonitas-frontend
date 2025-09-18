@@ -3,7 +3,7 @@
 <h2>Proyecto Hackaton F5 2025: Recordatorio de medicación</h2>
 
 <div align="center">
-  <img width="375" height="331" alt="logo_pildonitas" src="https://github.com/user-attachments/assets/42ce0bcf-4ca9-4ea3-8626-7615f93283a0" />
+  <img width="375" height="331" alt="logo_pildonitas" src="https://github.com/user-attachments/assets/42ce0bcf-4ca9-4ea3-8626-7615f93283a0" >
 </div>
 
 <h2>📝 Introducción</h2>
@@ -37,22 +37,22 @@
 
 <h2>🖥️ Tecnologías usadas: </h2>
 <ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-  <li>TailwindCSS</li>
-  <li>React JS</li>
-  <li>Node JS</li>
-  <li>localStorage (como respaldo de datos)</li>
+  <li>HTML <img width="30" height="30" alt="html" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" ></li>
+  <li>CSS <img width="30" height="30" alt="css" src="https://static.vecteezy.com/system/resources/thumbnails/001/416/680/small_2x/css3-emblem-blue-shield-and-white-text-vector.jpg" ></li>
+  <li>JavaScript <img width="30" height="30" alt="js" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/500px-JavaScript-logo.png" ></li>
+  <li>TailwindCSS <img width="30" height="30" alt="tailwindcss" src="https://images.icon-icons.com/2699/PNG/512/tailwindcss_logo_icon_167923.png" ></li>
+  <li>React JS <img width="30" height="30" alt="reactjs" src="https://cdn.worldvectorlogo.com/logos/react-1.svg" ></li>
+  <li>Node JS <img width="30" height="30" alt="nodejs" src="https://www.clipartmax.com/png/middle/70-701332_hire-node-js-developer-node-logo.png" ></li>
+  <li>localStorage (como respaldo de datos) <img width="60" height="30" alt="locaostorage" src="https://blog.teamtreehouse.com/wp-content/uploads/2013/01/localstorage-feature.png" ></li>
 </ul>
 
 <hr />
 
 <h2>🛠️ Herramientas utilizadas: </h2>
 <ul>
-  <li>Visual Studio Code</li>
-  <li>Git y GitHub</li>
-  <li>Figma (WireFrame y prototipo visual)</li>
+  <li>Visual Studio Code <img width="30" height="30" alt="vscode" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9E5HZlsBUfIyQdZy53DBNd5c9aIxECWdFww&s" ></li>
+  <li>Git y GitHub <img width="50" height="35" alt="git/github" src="https://media2.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvxo9p3zpa0a5p3nrehgr.png" ></li>
+  <li>Figma (WireFrame y prototipo visual) <img width="30" height="30" alt="figma" src="https://cdn.sanity.io/images/599r6htc/regionalized/5094051dac77593d0f0978bdcbabaf79e5bb855c-1080x1080.png?w=540&h=540&q=75&fit=max&auto=format" ></li>
 </ul>
 
 <h2>🚀 Inicio rápido</h2>
