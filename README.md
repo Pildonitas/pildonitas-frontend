@@ -1,24 +1,28 @@
-# Pildonitas 💊
-
-<h2>Proyect Hackaton F5 2025: Recordatorio de medicación</h2>
+# Pildonitas: Medication Management App 💊
 
 <div align="center">
   <img width="375" height="331" alt="logo_pildonitas" src="https://github.com/user-attachments/assets/42ce0bcf-4ca9-4ea3-8626-7615f93283a0" >
 </div>
 
-<h2>📝 Introducción</h2>
+<h2>📝 Introduction</h2>
 
-<p>Pildonitas es una página web que está diseñada para ayudar a las personas a gestionar de manera sencilla y segura su medicación diaria.</p>
-<p>Con ella, cada usuario puede:</p>
-<ul>
-  <li>Registrar sus medicamentos</li>
-  <li>Configurar recordatorios personalizados</li>
-  <li>Recibir notificaciones que aseguren el cumplimiento de su tratamiento</li>
-</ul>
-<p>El objetivo es ofrecer una herramienta digital fácil de usar, accesible y confiable, que mejore la adherencia a los tratamientos médicos y brinde tranquilidad tanto a pacientes como a sus cuidadores.</p>
+<p>Pildonitas is a web application developed during the Hackathon F5 – September 2025. Its purpose is to help users manage their medications by scheduling, tracking, and recording their intake.</p>
+
+<p>The project follows a client-server architecture with a separate frontend and backend, ensuring scalability, maintainability, and clean code practices.</p>
+ 
 <hr />
 
-<h2>🖥️ Tecnologías usadas: </h2>
+<h2>🎯 Objectives</h2>
+<ul>
+  <li>Allow users to register medications with dosage and frequency.</li>
+  <li>Schedule intakes and track their status (PENDING, TAKEN, DELAYED).</li>
+  <li>Provide a clean API for CRUD operations on medications and intakes.</li>
+  <li>Encourage teamwork and agile practices in a fast-paced hackathon environment.</li>
+</ul>
+
+<hr />
+
+<h2>🖥️ Tech Stack: </h2>
 <ul>
   <li>HTML <img width="30" height="30" alt="html" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" ></li>
   <li>CSS <img width="30" height="30" alt="css" src="https://static.vecteezy.com/system/resources/thumbnails/001/416/680/small_2x/css3-emblem-blue-shield-and-white-text-vector.jpg" ></li>
@@ -31,7 +35,7 @@
 
 <hr />
 
-<h2>🛠️ Herramientas utilizadas: </h2>
+<h2>🛠️ Tech Tools: </h2>
 <ul>
   <li>Terminal <img width="30" height="30" alt="terminal" src="https://cdn.worldvectorlogo.com/logos/terminal-1.svg" ></li>
   <li>Visual Studio Code <img width="30" height="30" alt="vscode" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9E5HZlsBUfIyQdZy53DBNd5c9aIxECWdFww&s" ></li>
@@ -41,7 +45,7 @@
 
 <hr />
 
-<h2>📂 Estructura del proyecto</h2>
+<h2>📂 Project structure</h2>
 <div align="center">
   <img width="495" height="548" alt="Captura de pantalla 2025-09-18 142307" src="https://github.com/user-attachments/assets/63fa8928-ade6-4cf7-a626-fc09bdb12d23" />
 </div>
@@ -52,23 +56,23 @@
 
 <hr />
 
-<h2>🚀 Inicio rápido</h2>
-<h3>Prerequisitos: </h3>
-<p>Abrir el símbolo de sistema en el ordenador (cmd) y comprobar las siguientes versiones:</p>
+<h2>🚀 Quick Start</h2>
+<h3>Prerequisites: </h3>
+<p>Open the command prompt on your computer (cmd) and check the following versions:</p>
 <ul>
-  <li>node -v => 16.0.0 o superior</li>
-  <li>npm -v => 8.0.0 o superior</li>
+  <li>node -v => 16.0.0 or higher</li>
+  <li>npm -v => 8.0.0 o higher</li>
 </ul>
-<h3>Instalación: </h3>
+<h3>Installation: </h3>
 <ol>
-  <li>Abrir el símbolo de sistema en el ordenador (cmd) y redirigir al directorio que desees clonar el repositorio</li>
-  <li>Ejecutar el siguiente comando para clonar el repositorio: <strong>git clone https://github.com/Pildonitas/pildonitas-frontend.git</strong></li>
-  <li>Navega al directorio: <strong>cd pildoritas</strong></li>
-  <li>Instala dependencias: <strong>npm install</strong></li>
-  <li>Configurar variables de entorno: <strong>cp .env.example .env.local</strong></li>
-  <li>Inicia el servidor de desarrollo: <strong>npm run dev</strong></li>
+  <li>Open the command prompt on your computer (cmd) and redirect to the directory you want to clone the repository to.</li>
+  <li>Run the following command to clone the repository: <strong>git clone https://github.com/Pildonitas/pildonitas-frontend.git</strong></li>
+  <li>Navigate to the directory: <strong>cd pildoritas</strong></li>
+  <li>Install dependencies: <strong>npm install</strong></li>
+  <li>Configure environment variables: <strong>cp .env.example .env.local</strong></li>
+  <li>Start the developer server: <strong>npm run dev</strong></li>
 </ol>
-<p><strong>Listo!</strong> Abres el enlace (http://localhost:5173/) en tu navegador</p>
+<p><strong>It´s ready!</strong> Open the link (http://localhost:5173/) in your browser.</p>
 
 <hr />
 
@@ -156,13 +160,11 @@
 
 <h2>🧑‍💻 Developer Team</h2>
 <ul>
-  <li><a href="https://www.linkedin.com/in/larysa-ambartsumian/">Larysa Ambartsumian</a> - Scrum Master / FrontEnd Developer</a></li>
-  <li><a href="https://www.linkedin.com/in/michelle-gelves/">Michelle Gelves</a> - FrontEnd Developer</a></li>
-  <li><a href="https://www.linkedin.com/in/david-vaamonde-bueno-a31049202/">David Vaamonde</a> - FrontEnd Developer</a></li>
-  <li><a href="https://www.linkedin.com/in/luisa-moreno-474334338/">Luisa Moreno</a> - FrontEnd Developer</li>
-  <li><a href="https://www.linkedin.com/in/sofía-toro-viafara-690124356/">Sofia Toro</a> - FrontEnd Developer</li>
-  <li><a href="https://www.linkedin.com/in/bruna-sonda/">Bruna Sonda</a> - BackEnd Developer</li>
-  <li><a href="https://www.linkedin.com/in/thaisrochadequeiroz/">Thais Rocha</a> - BackEnd Developer</li>
+  <li><a href="https://www.linkedin.com/in/larysa-ambartsumian/">Larysa Ambartsumian</a> - Scrum Master / Developer</a></li>
+  <li><a href="https://www.linkedin.com/in/michelle-gelves/">Michelle Gelves</a> - Developer</a></li>
+  <li><a href="https://www.linkedin.com/in/david-vaamonde-bueno-a31049202/">David Vaamonde</a> - Developer</a></li>
+  <li><a href="https://www.linkedin.com/in/luisa-moreno-474334338/">Luisa Moreno</a> - Developer</li>
+  <li><a href="https://www.linkedin.com/in/sofía-toro-viafara-690124356/">Sofia Toro</a> - Developer</li>
 </ul>
 
 
