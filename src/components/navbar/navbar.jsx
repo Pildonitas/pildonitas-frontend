@@ -5,7 +5,7 @@ import logoPildonitas from '../../assets/logo_pildonitas.png'
 function navbar() {
   return (
     <nav class="bg-[#ECF0F1] mb-8 rounded-md">
-        <div class="max-w-7xl m-3 p-4">
+        <div class="max-w-7xl m-15 p-10">
             <div class="flex flex-col md:flex-row md:justify-between md:items-center space-y-4 md:space-y-0 min-h-16">
                 <div class="flex items-center">
                     <div class="flex-shrink-0 flex items-center">
@@ -22,7 +22,6 @@ function navbar() {
                         <a href="#" class="text-[#005F9E] hover:text-white px-3 py-4 rounded-md text-sm font-bold">Perfil</a>
                     </div>
                 </div>
-                
             </div>
         </div>
     </nav>
