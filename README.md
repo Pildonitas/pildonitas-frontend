@@ -21,16 +21,16 @@
 <h2>Equipo de trabajo</h2>
 <h3>Equipo FrontEnd</h3>
 <ul>
-  <li>Larysa Ambartsumian</li>
-  <li>Michelle Gelves</li>
-  <li>David Vaamonde</li>
-  <li>Luisa Moreno</li>
-  <li>Sofia Toro</li>
+  <li>Larysa Ambartsumian - <a href="https://www.linkedin.com/in/larysa-ambartsumian/">LinkedIn</a></li>
+  <li>Michelle Gelves - <a href="https://www.linkedin.com/in/michelle-gelves/">LinkedIn</a></li>
+  <li>David Vaamonde - <a href="https://www.linkedin.com/in/david-vaamonde-bueno-a31049202/">LinkedIn</a></li>
+  <li>Luisa Moreno - <a href="https://www.linkedin.com/in/luisa-moreno-474334338/">LinkedIn</a></li>
+  <li>Sofia Toro - <a href="#">LinkedIn</a></li>
 </ul>
 <h3>Equipo BackEnd</h3>
 <ul>
-  <li>Bruna Sonda</li>
-  <li>Thais Rocha</li>
+  <li>Bruna Sonda - <a href="https://www.linkedin.com/in/bruna-sonda/">LinkedIn</a></li>
+  <li>Thais Rocha - <a href="https://www.linkedin.com/in/thaisrochadequeiroz/">LinkedIn</a></li>
 </ul>
 
 <h2>Instalación</h2>
