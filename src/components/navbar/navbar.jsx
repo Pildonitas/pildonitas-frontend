@@ -13,7 +13,7 @@ const navbar=()=> {
                         <div className="w-20 h-20 bg-[#CEE3DB] rounded-full flex items-center justify-center mr-3">
                             <img src={logoPildonitas} alt="Logo_pildonitas" className="w-15 h-14"/>
                         </div>
-                        <h1 className="text-[#00AEEF] text-l font-semibold">Pildonitas</h1>
+                        <h1 className="text-[#00AEEF] text-2xl font-semibold ">Pildonitas</h1>
                     </div>
                 </div>
                 <div className="block">
