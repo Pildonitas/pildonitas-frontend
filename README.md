@@ -97,5 +97,31 @@
   <img width="391" height="570" alt="Captura de pantalla 2025-09-18 133327" src="https://github.com/user-attachments/assets/50731ce4-a75f-42dc-9668-1fae0fda04fc" />
 </div>
 
+<div align="center">
+ <img width="397" height="379" alt="Captura de pantalla 2025-09-18 133339" src="https://github.com/user-attachments/assets/2e0646cd-5862-4b08-9e82-b29e432a26e3" />
+</div>
+
+<h3>Atoms</h3>
+<div align="center">
+  <img width="710" height="308" alt="Captura de pantalla 2025-09-18 133358" src="https://github.com/user-attachments/assets/8f260008-b96f-4b1c-b97e-3f059f441131" />
+</div>
+
+<h3>Molecules</h3>
+<div align="center">
+  <img width="733" height="303" alt="Captura de pantalla 2025-09-18 133416" src="https://github.com/user-attachments/assets/125cc3bb-cde9-48f2-b326-2eea6d252761" />
+</div>
+<div align="center">
+  <img width="604" height="285" alt="Captura de pantalla 2025-09-18 133431" src="https://github.com/user-attachments/assets/452c3e17-c3c9-41d1-9499-45a3bd59eed7" />
+</div>
+
+<h3>Organisms</h3>
+<div align="center">
+  <img width="1223" height="569" alt="Captura de pantalla 2025-09-18 140046" src="https://github.com/user-attachments/assets/9b4ac483-4612-40a3-89e8-ac318313011f" />
+</div>
+
+<h3>Responsive</h3>
+<div align="center">
+  <img width="396" height="625" alt="Captura de pantalla 2025-09-18 135814" src="https://github.com/user-attachments/assets/eb97a5e2-208f-4347-835e-0e3481cbf91f" />
+</div>
 
 
