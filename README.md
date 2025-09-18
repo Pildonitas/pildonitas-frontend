@@ -122,10 +122,7 @@
 
 <h3>Molecules</h3>
 <div align="center">
-  <img width="733" height="303" alt="Captura de pantalla 2025-09-18 133416" src="https://github.com/user-attachments/assets/125cc3bb-cde9-48f2-b326-2eea6d252761" />
-</div>
-<div align="center">
-  <img width="604" height="285" alt="Captura de pantalla 2025-09-18 133431" src="https://github.com/user-attachments/assets/452c3e17-c3c9-41d1-9499-45a3bd59eed7" />
+  <img width="1282" height="301" alt="Captura de pantalla 2025-09-18 145121" src="https://github.com/user-attachments/assets/02e5d7cf-f439-45fb-91c8-a30ff414103b" />
 </div>
 
 <h3>Organisms</h3>
