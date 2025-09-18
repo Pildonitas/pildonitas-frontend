@@ -124,4 +124,19 @@
   <img width="396" height="625" alt="Captura de pantalla 2025-09-18 135814" src="https://github.com/user-attachments/assets/eb97a5e2-208f-4347-835e-0e3481cbf91f" />
 </div>
 
+<hr />
+
+<h2> 📍 Data Flow </h2>
+
+<div align="center">
+  <img width="694" height="526" alt="Captura de pantalla 2025-09-18 140352" src="https://github.com/user-attachments/assets/a027fd70-21df-4d53-a7e4-285a06bd0fde" />
+</div>
+
+<div align="center">
+  <img width="431" height="602" alt="Captura de pantalla 2025-09-18 140405" src="https://github.com/user-attachments/assets/8954ed18-33af-4e37-a4f9-4ae8d2fc0b94" />
+</div>
+
+
+
+
 
