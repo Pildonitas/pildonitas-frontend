@@ -1,6 +1,6 @@
 # Pildonitas 💊
 
-<h2>Proyecto Hackaton F5 2025: Recordatorio de medicación</h2>
+<h2>Proyect Hackaton F5 2025: Recordatorio de medicación</h2>
 
 <div align="center">
   <img width="375" height="331" alt="logo_pildonitas" src="https://github.com/user-attachments/assets/42ce0bcf-4ca9-4ea3-8626-7615f93283a0" >
@@ -84,11 +84,6 @@
   <img width="386" height="327" alt="Captura de pantalla 2025-09-18 133248" src="https://github.com/user-attachments/assets/c6e6cce5-9c30-466a-aaf1-02ec966eb118" />
 </div>
 
-<h3>Assets</h3>
-<div align="center">
-  <img width="581" height="400" alt="Captura de pantalla 2025-09-18 133307" src="https://github.com/user-attachments/assets/6f7fd298-c5d6-4adb-bf7b-2046a2e58369" />
-</div>
-
 <h3>Mockup - Desktop</h3>
 <div align="center">
   <img width="391" height="570" alt="Captura de pantalla 2025-09-18 133327" src="https://github.com/user-attachments/assets/50731ce4-a75f-42dc-9668-1fae0fda04fc" />
@@ -118,6 +113,33 @@
   <img width="396" height="625" alt="Captura de pantalla 2025-09-18 135814" src="https://github.com/user-attachments/assets/eb97a5e2-208f-4347-835e-0e3481cbf91f" />
 </div>
 
+<h3>Paleta de colores</h3>
+
+<ul>
+  <li>Azul oscuro <code>#005F9E</code> - Buttons</li>
+  <li>Azul claro <code>00AEEF</code> - Main title</li>
+  <li>Azul marino <code>#2C3E50</code> - Paragraph</li>
+  <li>Gris <code>#ECF0F1</code> - Background</li>
+  <li>Gris <code>#ECF0F1</code> - Success</li>
+  <li>Rojo <code>#E74C3C</code> - Alert</li>
+  <li>Amarillo <code>#F39C12</code> - Warning</li>
+  <li>Verde <code>#27AE60</code> - Ok</li>
+</ul>
+
+<h3>Typography: Inter</h3>
+
+<h3>Logo</h3>
+
+<p><img width="100" height="100" alt="logo_pildonitas" src="https://github.com/user-attachments/assets/42ce0bcf-4ca9-4ea3-8626-7615f93283a0" ></p>
+
+<h3>Icons</h3>
+
+<img width="182" height="101" alt="Captura de pantalla 2025-09-18 164417" src="https://github.com/user-attachments/assets/ca50ff6b-f5f9-4317-a1a0-7f7327f5806a" />
+
+<h3>Buttons</h3>
+
+<img width="305" height="431" alt="Captura de pantalla 2025-09-18 164614" src="https://github.com/user-attachments/assets/ef4b57ac-f1e5-41ec-a2ef-e5b9c968d612" />
+
 <hr />
 
 <h2> 📍 Data Flow </h2>
@@ -132,7 +154,7 @@
 
 <hr />
 
-<h2>🧑‍💻 Desarrolladores</h2>
+<h2>🧑‍💻 Developer Team</h2>
 <ul>
   <li><a href="https://www.linkedin.com/in/larysa-ambartsumian/">Larysa Ambartsumian</a> - Scrum Master / FrontEnd Developer</a></li>
   <li><a href="https://www.linkedin.com/in/michelle-gelves/">Michelle Gelves</a> - FrontEnd Developer</a></li>
