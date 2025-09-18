@@ -1,4 +1,8 @@
-import Form from './components/Form.jsx'
-const Home = () => {<Form/>}
+import React from 'react'
 
-export default Home
+const Home = () => {
+  return (
+    <div>Home</div>
+  )
+}
+export default Home;

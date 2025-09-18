@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL_API="http://localhost:"
+const URL_API="http://localhost:xxxx/medications"
 
 //GET para ver el listado de toda la medicación
 export const getMedication = async()=>{
