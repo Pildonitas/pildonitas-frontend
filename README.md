@@ -33,6 +33,18 @@
   <li>Thais Rocha - <a href="https://www.linkedin.com/in/thaisrochadequeiroz/">LinkedIn</a></li>
 </ul>
 
+<hr />
+
+<h2>Tecnologías usadas: </h2>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>React JS</li>
+  <li>Node JS</li>
+  <li>localStorage (como respaldo de datos)</li>
+</ul>
+
 <h2>Inicio rápido</h2>
 <h3>Prerequisitos: </h3>
 <p>Abrir el símbolo de sistema en el ordenador (cmd) y comprobar las siguientes versiones:</p>
