@@ -6,7 +6,7 @@ const Footer = () => {
     { name: 'Michelle', link: 'https://www.linkedin.com/in/michelle-gelves/' },
     { name: 'David', link: 'https://www.linkedin.com/in/david-vaamonde-bueno-a31049202/' },
     { name: 'Luisa', link: 'https://www.linkedin.com/in/luisa-moreno-474334338/' },
-    { name: 'Sofia', link: '' },
+    { name: 'Sofia', link: 'https://www.linkedin.com/in/sof%C3%ADa-toro-viafara-690124356/' },
     { name: 'Bruna', link: 'https://www.linkedin.com/in/bruna-sonda/' },
     { name: 'Thais', link: 'https://www.linkedin.com/in/thaisrochadequeiroz/' }
   ];
