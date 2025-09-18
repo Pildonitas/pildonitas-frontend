@@ -10,8 +10,7 @@ const PildonitasRouter = createBrowserRouter([{
     element:<App />,
     children:[
         {
-            index:true,
-            element:<Home />
+            index:false,
         },
         {
             path: "/medicationslist",
