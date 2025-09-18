@@ -76,3 +76,26 @@
 <hr />
 
 <h2>🎞️ Wireframe</h2>
+
+<h3>Wireframe - Landing Page</h3>
+<div align="center">
+  <img width="392" height="301" alt="Captura de pantalla 2025-09-18 133238" src="https://github.com/user-attachments/assets/47254b34-bc0b-4381-bbf5-4d7d4739f839" />
+</div>
+
+<h3>Wireframe - Form Page</h3>
+<div align="center">
+  <img width="386" height="327" alt="Captura de pantalla 2025-09-18 133248" src="https://github.com/user-attachments/assets/c6e6cce5-9c30-466a-aaf1-02ec966eb118" />
+</div>
+
+<h3>Assets</h3>
+<div align="center">
+  <img width="581" height="400" alt="Captura de pantalla 2025-09-18 133307" src="https://github.com/user-attachments/assets/6f7fd298-c5d6-4adb-bf7b-2046a2e58369" />
+</div>
+
+<h3>Mockup - Desktop</h3>
+<div align="center">
+  <img width="391" height="570" alt="Captura de pantalla 2025-09-18 133327" src="https://github.com/user-attachments/assets/50731ce4-a75f-42dc-9668-1fae0fda04fc" />
+</div>
+
+
+
