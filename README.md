@@ -45,6 +45,15 @@
   <li>localStorage (como respaldo de datos)</li>
 </ul>
 
+<hr />
+
+<h2>Herramientas: </h2>
+<ul>
+  <li>Visual Studio Code</li>
+  <li>Git y GitHub</li>
+  <li>Figma (WireFrame y prototipo visual)</li>
+</ul>
+
 <h2>Inicio rápido</h2>
 <h3>Prerequisitos: </h3>
 <p>Abrir el símbolo de sistema en el ordenador (cmd) y comprobar las siguientes versiones:</p>
