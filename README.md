@@ -18,23 +18,6 @@
 <p>El objetivo es ofrecer una herramienta digital fácil de usar, accesible y confiable, que mejore la adherencia a los tratamientos médicos y brinde tranquilidad tanto a pacientes como a sus cuidadores.</p>
 <hr />
 
-<h2>🧑‍💻 Equipo de trabajo</h2>
-<h3>Equipo FrontEnd</h3>
-<ul>
-  <li>Larysa Ambartsumian - <a href="https://www.linkedin.com/in/larysa-ambartsumian/">LinkedIn</a></li>
-  <li>Michelle Gelves - <a href="https://www.linkedin.com/in/michelle-gelves/">LinkedIn</a></li>
-  <li>David Vaamonde - <a href="https://www.linkedin.com/in/david-vaamonde-bueno-a31049202/">LinkedIn</a></li>
-  <li>Luisa Moreno - <a href="https://www.linkedin.com/in/luisa-moreno-474334338/">LinkedIn</a></li>
-  <li>Sofia Toro - <a href="https://www.linkedin.com/in/sofía-toro-viafara-690124356/">LinkedIn</a></li>
-</ul>
-<h3>Equipo BackEnd</h3>
-<ul>
-  <li>Bruna Sonda - <a href="https://www.linkedin.com/in/bruna-sonda/">LinkedIn</a></li>
-  <li>Thais Rocha - <a href="https://www.linkedin.com/in/thaisrochadequeiroz/">LinkedIn</a></li>
-</ul>
-
-<hr />
-
 <h2>🖥️ Tecnologías usadas: </h2>
 <ul>
   <li>HTML <img width="30" height="30" alt="html" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" ></li>
@@ -147,7 +130,17 @@
   <img width="431" height="602" alt="Captura de pantalla 2025-09-18 140405" src="https://github.com/user-attachments/assets/8954ed18-33af-4e37-a4f9-4ae8d2fc0b94" />
 </div>
 
+<hr />
 
-
+<h2>🧑‍💻 Desarrolladores</h2>
+<ul>
+  <li><a href="https://www.linkedin.com/in/larysa-ambartsumian/">Larysa Ambartsumian</a> - Scrum Master / FrontEnd Developer</a></li>
+  <li><a href="https://www.linkedin.com/in/michelle-gelves/">Michelle Gelves</a> - FrontEnd Developer</a></li>
+  <li><a href="https://www.linkedin.com/in/david-vaamonde-bueno-a31049202/">David Vaamonde</a> - FrontEnd Developer</a></li>
+  <li><a href="https://www.linkedin.com/in/luisa-moreno-474334338/">Luisa Moreno</a> - FrontEnd Developer</li>
+  <li><a href="https://www.linkedin.com/in/sofía-toro-viafara-690124356/">Sofia Toro</a> - FrontEnd Developer</li>
+  <li><a href="https://www.linkedin.com/in/bruna-sonda/">Bruna Sonda</a> - BackEnd Developer</li>
+  <li><a href="https://www.linkedin.com/in/thaisrochadequeiroz/">Thais Rocha</a> - BackEnd Developer</li>
+</ul>
 
 
