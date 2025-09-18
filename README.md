@@ -25,7 +25,7 @@
   <li>Michelle Gelves - <a href="https://www.linkedin.com/in/michelle-gelves/">LinkedIn</a></li>
   <li>David Vaamonde - <a href="https://www.linkedin.com/in/david-vaamonde-bueno-a31049202/">LinkedIn</a></li>
   <li>Luisa Moreno - <a href="https://www.linkedin.com/in/luisa-moreno-474334338/">LinkedIn</a></li>
-  <li>Sofia Toro - <a href="#">LinkedIn</a></li>
+  <li>Sofia Toro - <a href="https://www.linkedin.com/in/sofía-toro-viafara-690124356/">LinkedIn</a></li>
 </ul>
 <h3>Equipo BackEnd</h3>
 <ul>
