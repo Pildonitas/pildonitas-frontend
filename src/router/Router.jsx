@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
+import App from "../App.jsx"
 
 
 const PildonitasRouter = createBrowserRouter([{
@@ -7,8 +7,7 @@ const PildonitasRouter = createBrowserRouter([{
     element:<App />,
     children:[
         {
-            index:true,
-            element:<Home />
+            index:false,
         },
         {
             path: "/medicationslist",
