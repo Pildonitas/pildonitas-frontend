@@ -19,9 +19,19 @@
 <hr />
 
 <h2>Equipo de trabajo</h2>
-<ol>
-  <li></li>
-</ol>
+<h3>Equipo FrontEnd</h3>
+<ul>
+  <li>Larysa Ambartsumian</li>
+  <li>Michelle Gelves</li>
+  <li>David Vaamonde</li>
+  <li>Luisa Moreno</li>
+  <li>Sofia Toro</li>
+</ul>
+<h3>Equipo BackEnd</h3>
+<ul>
+  <li>Bruna Sonda</li>
+  <li>Thais Rocha</li>
+</ul>
 
 <h2>Instalación</h2>
 <ol>
