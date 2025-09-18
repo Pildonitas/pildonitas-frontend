@@ -33,9 +33,16 @@
   <li>Thais Rocha - <a href="https://www.linkedin.com/in/thaisrochadequeiroz/">LinkedIn</a></li>
 </ul>
 
-<h2>Instalación</h2>
+<h2>Inicio rápido</h2>
+<h3>Prerequisitos: </h3>
+<p>Abrir el símbolo de sistema en el ordenador (cmd) y comprobar las siguientes versiones:</p>
+<ul>
+  <li>node -v => 16.0.0 o superior</li>
+  <li>npm -v => 8.0.0 o superior</li>
+</ul>
+<h3>Instalación: </h3>
 <ol>
-  <li>Abrir la terminar con el comando "cmd" y redirigir al directorio que desees clonar el repositorio</li>
+  <li>Abrir el símbolo de sistema en el ordenador (cmd) y redirigir al directorio que desees clonar el repositorio</li>
   <li>Ejecutar el siguiente comando para clonar el repositorio: <strong>git clone https://github.com/Pildonitas/pildonitas-frontend.git</strong></li>
   <li>Navega al directorio: <strong>cd pildoritas</strong></li>
   <li>Instala dependencias: <strong>npm install</strong></li>
