@@ -1,14 +1,17 @@
-
-import Footer from './components/Footer'
 import './App.css'
-import Navbar from './components/navbar/navbar'
+import Navbar from './components/Navbar.jsx'
+import { Outlet } from 'react-router-dom'
+import Footer from './components/Footer.jsx'
 
-const App =() => {
+
+const App = () =>{
+
   return (
-    <> 
-    <Navbar />
-    <Footer />
-    </> 
+    <>
+      <Navbar/>
+      <Outlet/>
+      <Footer/>
+    </>
   )
 }
 
