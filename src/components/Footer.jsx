@@ -13,7 +13,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#ECF0F1] py-6 px-4 mt-auto font-sans rounded-md">
-      <style jsx>{`
+      <style>{`
         .custom-teal { color: #005F9E; }
         .custom-teal-border { border-color: #005F9E; }
         .custom-teal-bg { background-color: #005F9E; }
