@@ -1,13 +1,14 @@
 
 import React, { useState } from "react";
 
-const Button = ({ title, action, tooltip, type = "button" }) => {
+const Button = ({ title, action, tooltip, type = "button", loading = false, disabled, className="" }) => {
+    const [internalLoading, setInternalLoading] = useState(false);
+    const isLoading = loading || internalLoading;
 
-    const [loading, setLoading] = useState(false);
+
     const handleClick = async () => {
-
         if (!action) return;
-        setLoading(true);
+        setInternalLoading(true);
 
         try {
             const result = await action();//Ejecuta el metodo CRUD recibido como prop
@@ -15,16 +16,21 @@ const Button = ({ title, action, tooltip, type = "button" }) => {
         } catch (error) {
             console.error(error);
         } finally {
-            setLoading(false);
+            setInternalLoading(false);
         }
     }
     return (
-        <>
-            <button title={tooltip} type={type} onClick={handleClick} disabled={loading}>
-                {loading ? 'Cargando ...' : title}
+        
+            <button 
+            title={tooltip}
+            type={type} 
+            onClick={action ? handleClick : undefined} 
+            className={className}
+            disabled={isLoading || disabled}>
+
+                {isLoading ? 'Cargando ...' : title}
             </button>
-        </>
     )
 }
 
-export default Button
+export default Button;

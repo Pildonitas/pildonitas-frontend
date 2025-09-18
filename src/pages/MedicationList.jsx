@@ -1,40 +1,44 @@
 import React, { useEffect, useState } from 'react'
 import MedicationCard from '../components/MedicationCard'
-import { getMedication } from '../services/MedicationServices';
+//import { getMedication } from '../services/MedicationServices';
+import { getMedication } from '../services/TestServices';
+import MedForm from '../components/Form';
+import { ClipboardList } from "lucide-react";
 
 
 const MedicationList = () => {
     const [medications, setMedications] = useState([]);
-    const [showForm, setShowForm] = useState(false);
-
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [showForm, setShowForm] = useState(false)
+    const [editingMed, setEditingMed] = useState(null)
 
     //Cargar los medicamentos desde la API 
     useEffect(() => {
         const fetchData = async () => {
+            setLoading(true);
             try {
                 const data = await getMedication();
                 setMedications(data);
             } catch (error) {
                 console.error("Error cargando los medicamentos:", error);
+            } finally {
+                setLoading(false);
             }
         };
         fetchData();
     }, []);
 
+    if (loading) {
+        return <p>Cargando lista de medicamentos...</p>;
+    }
+
     return (
         <div style={{ padding: "20px" }}>
-            <h1>📋 Medicamentos del Usuario</h1>
-            <button onClick={() => setShowForm(true)}>Agregar Medicamento</button>
-
-            {showForm && (
-                <Form
-                    onSubmit={handleAgregarMedicamento}
-                    onCancel={() => setShowForm(false)}
-                />
-            )}
-
+            <div className="flex items-center space-x-2">
+                <ClipboardList className="w-6 h-6 text-sky-500" />
+                <h1 className="text-xl font-bold text-gray-800">Mis Medicamentos</h1>
+            </div>
             <div
                 style={{
                     marginTop: "30px",
@@ -46,10 +50,8 @@ const MedicationList = () => {
                 {medications.map((med) => (
                     <MedicationCard
                         key={med.id}
-                        {...med}
-                        onMarcarComoTomado={() => marcarComoTomado(med.id)}
-                        onEliminar={() => eliminarMedicamento(med.id)}
-                        onEditar={() => editarMedicamento(med.id)}
+                        id={med.id} // solo pasamos el ID
+                        onUpdate={() => console.log("Lista actualizada")}
                     />
                 ))}
             </div>

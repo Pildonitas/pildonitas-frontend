@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { getMedicationById, createMedication, updateMedication } from '../services/MedicationServices';
-
+import Button from './Button';
 
 const MedForm = () => {
     const navigate = useNavigate();
@@ -305,7 +305,23 @@ const MedForm = () => {
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="nextDose">Próxima toma</label>
+                    <label htmlFor="dosis">
+                        Dosis <span className="required">*</span>
+                    </label>
+                    <input
+                        type="text"
+                        id="dosis"
+                        name="dosis"
+                        value={formData.dosis}
+                        onChange={handleChange}
+                        placeholder="Ej: 2 dosis de un comprimido de 200 mg al día"
+                        required
+                        disabled={isLoading}
+                    />
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="nextDose">Hora de toma</label>
                     <input
                         type="time"
                         id="nextDose"
@@ -358,26 +374,24 @@ const MedForm = () => {
                 </div>
 
                 <div className="form-actions">
-                    <button 
+                    <Button 
+                        title="Cancelar"
+                        action={handleCancel}
+                        tooltip="Cancelar"
                         type="button" 
-                        onClick={handleCancel} 
                         className="btn-cancel"
-                        disabled={isLoading}
+                        loading={isLoading}
                     >
-                        Cancelar
-                    </button>
-                    <button 
+                    </Button>
+                    <Button 
+                        title={isLoading ? 'Guardando...' : isEditing ? 'Actualizar' : 'Guardar'}
                         type="submit" 
+                        tooltip="Guardar"
                         className="btn-save"
-                        disabled={isLoading}
+                        loading={isLoading}
+                        
                     >
-                        {isLoading 
-                            ? 'Guardando...' 
-                            : isEditing 
-                                ? 'Actualizar' 
-                                : 'Guardar'
-                        }
-                    </button>
+                    </Button>
                 </div>
             </form>
         </div>
