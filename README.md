@@ -55,6 +55,19 @@
   <li>Figma (WireFrame y prototipo visual) <img width="30" height="30" alt="figma" src="https://cdn.sanity.io/images/599r6htc/regionalized/5094051dac77593d0f0978bdcbabaf79e5bb855c-1080x1080.png?w=540&h=540&q=75&fit=max&auto=format" ></li>
 </ul>
 
+<hr />
+
+<h2>Estructura del proyecto</h2>
+<div align="center">
+  <img width="495" height="548" alt="Captura de pantalla 2025-09-18 142307" src="https://github.com/user-attachments/assets/63fa8928-ade6-4cf7-a626-fc09bdb12d23" />
+</div>
+
+<div align="center">
+  <img width="495" height="403" alt="Captura de pantalla 2025-09-18 142326" src="https://github.com/user-attachments/assets/08c58d16-49c8-4fb1-8703-f40e81abd338" />
+</div>
+
+<hr />
+
 <h2>🚀 Inicio rápido</h2>
 <h3>Prerequisitos: </h3>
 <p>Abrir el símbolo de sistema en el ordenador (cmd) y comprobar las siguientes versiones:</p>
