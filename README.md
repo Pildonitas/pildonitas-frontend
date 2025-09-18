@@ -72,3 +72,7 @@
   <li>Inicia el servidor de desarrollo: <strong>npm run dev</strong></li>
 </ol>
 <p><strong>Listo!</strong> Abres el enlace (http://localhost:5173/) en tu navegador</p>
+
+<hr />
+
+<h2>🎞️ Wireframe</h2>
