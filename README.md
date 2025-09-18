@@ -50,6 +50,7 @@
 
 <h2>🛠️ Herramientas utilizadas: </h2>
 <ul>
+  <li>Terminal <img width="30" height="30" alt="terminal" src="https://cdn.worldvectorlogo.com/logos/terminal-1.svg" ></li>
   <li>Visual Studio Code <img width="30" height="30" alt="vscode" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9E5HZlsBUfIyQdZy53DBNd5c9aIxECWdFww&s" ></li>
   <li>Git y GitHub <img width="50" height="35" alt="git/github" src="https://media2.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvxo9p3zpa0a5p3nrehgr.png" ></li>
   <li>Figma (WireFrame y prototipo visual) <img width="30" height="30" alt="figma" src="https://cdn.sanity.io/images/599r6htc/regionalized/5094051dac77593d0f0978bdcbabaf79e5bb855c-1080x1080.png?w=540&h=540&q=75&fit=max&auto=format" ></li>
