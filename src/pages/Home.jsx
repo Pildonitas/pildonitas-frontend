@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import MedicationCarousel from "../components/MedsCarousel";
-import { getMedicationsForToday } from "../services/TestServices";
+import { getMedication } from "../services/MedicationServices";
+
 import { User } from "lucide-react";
 
 const Home = ({ userName = "Usuario" }) => {
@@ -11,7 +12,7 @@ const Home = ({ userName = "Usuario" }) => {
   useEffect(() => {
     const fetchMeds = async () => {
       try {
-        const meds = await getMedicationsForToday();
+        const meds = await getMedication();
         setMedications(meds);
       } catch (err) {
         console.error("Error cargando medicamentos:", err);
@@ -40,7 +41,13 @@ const Home = ({ userName = "Usuario" }) => {
 
   const nextMed = medications
     .filter((med) => med.status !== "tomado")
-    .sort((a, b) => a.nextDose.localeCompare(b.nextDose))[0];
+  medications.sort((a, b) => {
+    const nameA = a.name || '';
+    const nameB = b.name || '';
+    return nameA.localeCompare(nameB);
+  });
+
+
 
   return (
     <div className="p-6 space-y-6">
@@ -72,7 +79,7 @@ const Home = ({ userName = "Usuario" }) => {
       </div>
 
       {/* Carrusel */}
-      <MedicationCarousel medications={medications} />
+      <MedicationCarousel medications={medications.filter(m=>m.status !== "tomado")} />
     </div>
   );
 };

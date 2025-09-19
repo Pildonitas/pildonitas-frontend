@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Button from "./Button";
-import { getMedicationById, updateMedication } from "../services/TestServices";
+import { getMedicationById, updateMedication } from "../services/MedicationServices";
 import { Link } from "react-router-dom";
 
 const MedicationCard = ({ id, onUpdate }) => {
@@ -39,13 +39,20 @@ const MedicationCard = ({ id, onUpdate }) => {
         }
     };
 
-    const cardStyle = getCardStyle(medication.estado);
+    const cardStyle = getCardStyle(medication.status);
 
     // --- Función para marcar como tomado ---
     const handleMarkAsTaken = async () => {
         try {
-            await updateMedication(id, { estado: "tomado" }); // Actualiza en el servicio simulado
-            setMedication((prev) => ({ ...prev, estado: "tomado" })); // Actualiza el estado local
+            // Crear un objeto completo copiando los datos existentes
+            const updatedMedication = { ...medication, status: "tomado" };
+            
+            // Actualizar usando PUT con todo el objeto
+            await updateMedication(id, updatedMedication);
+
+            // Actualizar el estado local
+            setMedication(prev => ({ ...prev, status: "tomado" }));
+            
             if (onUpdate) onUpdate(id, "tomado"); // Notifica al padre si aplica
         } catch (error) {
             console.error("Error al marcar como tomado:", error);
@@ -57,12 +64,12 @@ const MedicationCard = ({ id, onUpdate }) => {
             {/* Header con nombre y estado */}
             <div className="flex justify-between items-center mb-3">
                 <h3 className="text-lg font-semibold text-gray-800 flex-1 pr-2">
-                    {medication.medicamento} {medication.dosis}
+                    {medication.name} {medication.dosis}
                 </h3>
                 <span
                     className={`${cardStyle.badge} text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide`}
                 >
-                    {medication.estado}
+                    {medication.status}
                 </span>
             </div>
 
@@ -70,21 +77,21 @@ const MedicationCard = ({ id, onUpdate }) => {
             <div className="space-y-2 mb-4">
                 <div className="flex">
                     <span className="text-gray-600 font-medium text-sm">Frecuencia:</span>
-                    <span className="text-gray-800 text-sm ml-1">{medication.frecuencia}</span>
+                    <span className="text-gray-800 text-sm ml-1">{medication.frequency}</span>
                 </div>
                 <div className="flex">
                     <span className="text-gray-600 font-medium text-sm min-w-20">Próxima toma:</span>
-                    <span className="text-gray-800 text-sm ml-1">{medication.proximaToma}</span>
+                    <span className="text-gray-800 text-sm ml-1">{medication.nextDose}</span>
                 </div>
                 <div className="flex">
                     <span className="text-gray-600 font-medium text-sm min-w-20">Última toma:</span>
-                    <span className="text-gray-800 text-sm ml-1">{medication.ultimaToma}</span>
+                    <span className="text-gray-800 text-sm ml-1">{medication.lastDose}</span>
                 </div>
             </div>
 
             {/* Botones de acción */}
             <div className="flex gap-2">
-                {medication.estado.toLowerCase() !== "tomado" && (
+                {(medication.status || "").toLowerCase() !== "tomado" && (
                     <Button
                         title="Marcar como tomado"
                         action={handleMarkAsTaken}
@@ -94,7 +101,7 @@ const MedicationCard = ({ id, onUpdate }) => {
                 <Link to={`/viewmedication/${id}`}>
                     <Button
                         title="Ver más"
-                        action={() => { }}
+                        action={() => {}}
                         className="bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded"
                     />
                 </Link>

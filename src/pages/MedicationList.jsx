@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import MedicationCard from "../components/MedicationCard"
 // 🔹 cuando tengas backend real, cambia este import:
-import { getMedication } from "../services/TestServices"
+import { getMedication } from "../services/MedicationServices"
 import { ClipboardList } from "lucide-react"
 
 const MedicationList = () => {
