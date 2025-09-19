@@ -1,0 +1,180 @@
+{
+  "medications": [
+    {
+      "id": "2",
+      "name": "Paracetamol",
+      "dosis": "500mg",
+      "frequency": "Cada 12 horas",
+      "nextDose": "18:00",
+      "lastDose": "06:00",
+      "status": "retrasado",
+      "notes": "Ideal para fiebre y dolor leve",
+      "important": "No exceder 4g diarios"
+    },
+    {
+      "name": "Omeprazol",
+      "frequency": "Diario en la mañana",
+      "nextDose": "09:00",
+      "lastDose": "08:00",
+      "dosis": "20mg",
+      "status": "tomado",
+      "notes": "Tomar en ayunas",
+      "important": "No exceder la dosis recomendada",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "name": "Loratadina",
+      "dosis": "10mg",
+      "frequency": "Cada 24 horas",
+      "nextDose": "09:00",
+      "lastDose": "09:00",
+      "status": "tomado",
+      "notes": "Alivio de alergias",
+      "important": "No produce somnolencia"
+    },
+    {
+      "id": "6",
+      "name": "Metformina",
+      "dosis": "850mg",
+      "frequency": "Cada 12 horas",
+      "nextDose": "21:00",
+      "lastDose": "09:00",
+      "status": "pendiente",
+      "notes": "Tomar con comidas",
+      "important": "Usado para diabetes tipo 2"
+    },
+    {
+      "id": "7",
+      "name": "Atorvastatina",
+      "dosis": "20mg",
+      "frequency": "Una vez al día",
+      "nextDose": "22:00",
+      "lastDose": "22:00",
+      "status": "tomado",
+      "notes": "Tomar en la noche",
+      "important": "Reduce colesterol"
+    },
+    {
+      "id": "8",
+      "name": "Losartán",
+      "dosis": "50mg",
+      "frequency": "Cada 24 horas",
+      "nextDose": "08:00",
+      "lastDose": "08:00",
+      "status": "pendiente",
+      "notes": "Control de presión arterial",
+      "important": "Tomar a la misma hora todos los días"
+    },
+    {
+      "id": "1",
+      "name": "Ibuprofeno",
+      "dosis": "400mg",
+      "frequency": "Cada 8 horas",
+      "nextDose": "14:00",
+      "lastDose": "06:00",
+      "status": "tomado",
+      "notes": "Tomar con comida",
+      "important": "No exceder 3 dosis al día"
+    },
+    {
+      "id": "2",
+      "name": "Vitamina D",
+      "dosis": "1000 UI",
+      "frequency": "Diaria",
+      "nextDose": "09:00",
+      "lastDose": "09:00",
+      "status": "pendiente",
+      "notes": "Tomar con desayuno",
+      "important": "Mejor absorción con grasa"
+    },
+    {
+      "id": "3",
+      "name": "Atenolol",
+      "dosis": "25mg",
+      "frequency": "Diaria",
+      "nextDose": "08:00",
+      "lastDose": "08:00",
+      "status": "retrasado",
+      "notes": "",
+      "important": "Para presión arterial"
+    },
+    {
+      "id": "4",
+      "name": "Metformina",
+      "dosis": "500mg",
+      "frequency": "Cada 12 horas",
+      "nextDose": "20:00",
+      "lastDose": "08:00",
+      "status": "pendiente",
+      "notes": "Evitar tomar con alcohol",
+      "important": "Tomar con comida"
+    },
+    {
+      "id": "5",
+      "name": "Omeprazol",
+      "dosis": "20mg",
+      "frequency": "Diaria",
+      "nextDose": "07:00",
+      "lastDose": "07:00",
+      "status": "pendiente",
+      "notes": "",
+      "important": "Tomar antes del desayuno"
+    },
+    {
+      "id": "6",
+      "name": "Losartán",
+      "dosis": "50mg",
+      "frequency": "Cada 24 horas",
+      "nextDose": "08:00",
+      "lastDose": "08:00",
+      "status": "pendiente",
+      "notes": "Control de presión arterial",
+      "important": "Tomar a la misma hora todos los días"
+    },
+    {
+      "id": "7",
+      "name": "Simvastatina",
+      "dosis": "20mg",
+      "frequency": "Diaria",
+      "nextDose": "22:00",
+      "lastDose": "22:00",
+      "status": "pendiente",
+      "notes": "",
+      "important": "Tomar por la noche"
+    },
+    {
+      "id": "8",
+      "name": "Amoxicilina",
+      "dosis": "500mg",
+      "frequency": "Cada 8 horas",
+      "nextDose": "16:00",
+      "lastDose": "08:00",
+      "status": "pendiente",
+      "notes": "Completar ciclo antibiótico",
+      "important": "Tomar con agua"
+    },
+    {
+      "id": "9",
+      "name": "Paracetamol",
+      "dosis": "500mg",
+      "frequency": "Cada 6 horas",
+      "nextDose": "12:00",
+      "lastDose": "06:00",
+      "status": "pendiente",
+      "notes": "Para fiebre y dolor",
+      "important": "No exceder 4g diarios"
+    },
+    {
+      "id": "8f27",
+      "name": "Paracetamol",
+      "frequency": "cada 6 horas",
+      "nextDose": "11:05",
+      "lastDose": "",
+      "dosis": "500mg",
+      "status": "pendiente",
+      "notes": "tomar con agua",
+      "important": "no exceder las 4 dosis"
+    }
+  ]
+}
