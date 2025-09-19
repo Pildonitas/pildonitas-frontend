@@ -4,21 +4,21 @@ const Footer = () => {
   const teamMembers = [
     { name: 'Larysa', link: 'https://www.linkedin.com/in/larysa-ambartsumian/' },
     { name: 'Michelle', link: 'https://www.linkedin.com/in/michelle-gelves/' },
-    { name: 'David', link: '' },
-    { name: 'Luisa', link: '' },
-    { name: 'Sofia', link: '' },
+    { name: 'David', link: 'https://www.linkedin.com/in/david-vaamonde-bueno-a31049202/' },
+    { name: 'Luisa', link: 'https://www.linkedin.com/in/luisa-moreno-474334338/' },
+    { name: 'Sofia', link: 'https://www.linkedin.com/in/sof%C3%ADa-toro-viafara-690124356/' },
     { name: 'Bruna', link: 'https://www.linkedin.com/in/bruna-sonda/' },
     { name: 'Thais', link: 'https://www.linkedin.com/in/thaisrochadequeiroz/' }
   ];
 
   return (
-    <footer className="bg-white py-6 px-4 mt-auto font-sans">
-      <style jsx>{`
+    <footer className="bg-[#ECF0F1] py-6 px-4 mt-auto font-sans rounded-md">
+      <style>{`
         .custom-teal { color: #005F9E; }
         .custom-teal-border { border-color: #005F9E; }
         .custom-teal-bg { background-color: #005F9E; }
         .custom-teal-opacity { color: #005F9E; }
-        .custom-teal-light { color: #005F9E); }
+        .custom-teal-light { color: #005F9E; }
         .team-member { margin-right: 20px; display: inline-block; }
       `}</style>
 
@@ -37,21 +37,21 @@ const Footer = () => {
             Equipo de desarrolladores:
           </p>
           <div className="text-sm">
-            {teamMembers.map((member, index) => (
+            {teamMembers.map((member) => (
               member.link ? (
                 <a
                   key={member.name}
                   href={member.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="team-member px-3 py-1 rounded-full border-2 custom-teal custom-teal-border bg-transparent hover:bg-opacity-100 hover:text-white transition-all duration-200 cursor-pointer hover:custom-teal-bg"
+                  className="team-member px-3 py-1 rounded-md border-2 custom-teal custom-teal-border bg-transparent hover:bg-opacity-100 hover:text-white transition-all duration-200 cursor-pointer hover:custom-teal-bg"
                 >
                   {member.name}
                 </a>
               ) : (
                 <span
                   key={member.name}
-                  className="team-member px-3 py-1 rounded-full border-2 custom-teal custom-teal-border bg-transparent"
+                  className="team-member px-3 py-1 rounded-md border-2 custom-teal custom-teal-border bg-transparent"
                 >
                   {member.name}
                 </span>
