@@ -30,7 +30,7 @@
   <li>TailwindCSS <img width="30" height="30" alt="tailwindcss" src="https://images.icon-icons.com/2699/PNG/512/tailwindcss_logo_icon_167923.png" ></li>
   <li>React JS <img width="30" height="30" alt="reactjs" src="https://cdn.worldvectorlogo.com/logos/react-1.svg" ></li>
   <li>Node JS <img width="30" height="30" alt="nodejs" src="https://www.clipartmax.com/png/middle/70-701332_hire-node-js-developer-node-logo.png" ></li>
-  <li>localStorage (como respaldo de datos) <img width="60" height="30" alt="locaostorage" src="https://blog.teamtreehouse.com/wp-content/uploads/2013/01/localstorage-feature.png" ></li>
+  <li>localStorage <img width="60" height="30" alt="locaostorage" src="https://blog.teamtreehouse.com/wp-content/uploads/2013/01/localstorage-feature.png" ></li>
 </ul>
 
 <hr />
@@ -39,7 +39,7 @@
 <ul>
   <li>Terminal <img width="30" height="30" alt="terminal" src="https://cdn.worldvectorlogo.com/logos/terminal-1.svg" ></li>
   <li>Visual Studio Code <img width="30" height="30" alt="vscode" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9E5HZlsBUfIyQdZy53DBNd5c9aIxECWdFww&s" ></li>
-  <li>Git y GitHub <img width="50" height="35" alt="git/github" src="https://media2.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvxo9p3zpa0a5p3nrehgr.png" ></li>
+  <li>Git & GitHub <img width="50" height="35" alt="git/github" src="https://media2.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvxo9p3zpa0a5p3nrehgr.png" ></li>
   <li>Figma (WireFrame y prototipo visual) <img width="30" height="30" alt="figma" src="https://cdn.sanity.io/images/599r6htc/regionalized/5094051dac77593d0f0978bdcbabaf79e5bb855c-1080x1080.png?w=540&h=540&q=75&fit=max&auto=format" ></li>
 </ul>
 
@@ -120,14 +120,14 @@
 <h3>Paleta de colores</h3>
 
 <ul>
-  <li>Azul oscuro <code>#005F9E</code> - Buttons</li>
-  <li>Azul claro <code>00AEEF</code> - Main title</li>
-  <li>Azul marino <code>#2C3E50</code> - Paragraph</li>
-  <li>Gris <code>#ECF0F1</code> - Background</li>
-  <li>Gris <code>#ECF0F1</code> - Success</li>
-  <li>Rojo <code>#E74C3C</code> - Alert</li>
-  <li>Amarillo <code>#F39C12</code> - Warning</li>
-  <li>Verde <code>#27AE60</code> - Ok</li>
+  <li>Dark Blue <code>#005F9E</code> - Buttons</li>
+  <li>Light Blue <code>00AEEF</code> - Main title</li>
+  <li>Navy Blue <code>#2C3E50</code> - Paragraph</li>
+  <li>Grey <code>#ECF0F1</code> - Background</li>
+  <li>Grey <code>#ECF0F1</code> - Success</li>
+  <li>Red <code>#E74C3C</code> - Alert</li>
+  <li>Yellow <code>#F39C12</code> - Warning</li>
+  <li>Green <code>#27AE60</code> - Ok</li>
 </ul>
 
 <h3>Typography: Inter</h3>
